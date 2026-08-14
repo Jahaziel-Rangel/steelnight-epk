@@ -1,0 +1,181 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 100px 20px;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+p{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero > a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 12px 24px;
+    margin: 10px;
+}
+
+.hero > a:hover,
+#musica a:hover{
+    background-color: white;
+    color: black;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img{
+    max-width: 800px;
+    width: 80%;
+    height: auto;
+}
+
+.hero img + p{
+    margin-top: -40px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    z-index: 1000;
+}
+
+nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 8px 16px;
+    margin: 0 6px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+section{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+section h2{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+#musica a{
+    display: block;
+    width: fit-content;
+    margin: 15px auto;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 12px 24px;
+}
+
+#videos a{
+    display: block;
+    width: fit-content;
+    margin: 15px auto;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 12px 24px;
+}
+#videos a:hover{
+    background-color: white;
+    color: black;
+}
+
+#rider a{
+    display: block;
+    width: fit-content;
+    margin: 15px auto;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 12px 24px;
+}
+
+#rider a:hover{
+    background-color: white;
+    color: black;
+}
+
+#rider h3{
+    margin-top: 35px;
+    margin-bottom: 8px;
+}
+
+#rider h3 + p{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#rider a{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 600px) {
+
+    #bio p {
+        font-size: 15px;
+        line-height: 1.35;
+        margin-bottom: 12px;
+   }
+
+}
+
+h2 {
+    color: #0F7CD5;
+}
+
+nav a {
+    border-color: #0F7CD5;
+}
+
+.hero > a {
+    border-color: #0F7CD5;
+}
+
+#musica a,
+#videos a,
+#rider a {
+    border-color: #0F7CD5;
+}
